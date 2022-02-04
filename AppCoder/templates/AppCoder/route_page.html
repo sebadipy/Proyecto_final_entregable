@@ -11,7 +11,7 @@
 
     <h1>Más sobre el sistema</h1>
     <h2>Listado de páginas</h2>
-    <H4>*Para editar el perfil del usuario debe estar logueado en el sistema *</H4>
+    <H4>*Para editar el PERFIL del usuario y ver LISTADOS debe estar logueado en el sistema *</H4>
     <a href="{% url 'Inicio' %}"> Página de Inicio</a>
     <h3> </h3>
     <a href="{% url 'Login' %}"> Página de Login</a>
@@ -24,10 +24,14 @@
     {% if request.user.is_authenticated %}
                 
     <a href="{% url 'EditarPerfil' %}"> Página de editar perfil de usuario</a>
-    {% endif %}
-
-
     <h3> </h3>
+        <a href="{% url 'lista_medicos' %}"> Página de listado de médicos. Incluye editar y eliminar</a>
+    <h3> </h3>
+    <a href="{% url 'lista_pacientes' %}"> Página de listado de pacientes. Incluye editar y eliminar</a>
+    <h3> </h3>
+    <a href="{% url 'lista_practicas' %}"> Página de listado de practicas de pacientes. Incluye editar y eliminar</a>
+    <h3> </h3>
+    {% endif %}
     <a href="{% url 'About' %}"> Página About</a>
     <h3> </h3>
     <a href="{% url 'Routepage' %}"> Pagina más sobre el sistema</a>
@@ -36,11 +40,6 @@
     <h3> </h3>
     <a href="{% url 'Practicas' %}"> Página de registro de prácticas</a>
     <h3> </h3>
-    <a href="{% url 'lista_medicos' %}"> Página de listado de médicos. Incluye editar y eliminar</a>
-    <h3> </h3>
-    <a href="{% url 'lista_pacientes' %}"> Página de listado de pacientes. Incluye editar y eliminar</a>
-    <h3> </h3>
-    <a href="{% url 'lista_practicas' %}"> Página de listado de practicas de pacientes. Incluye editar y eliminar</a>
     <h3> </h3>
     <button><a href="{% url 'Inicio' %}"> Volver a inicio</a></button>
 
