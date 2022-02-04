@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width={device-width}, initial-scale=1.0">
+    <title>Lista de médicos</title>
+</head>
+<body>
+
+    <a class="btn btn-primary" href="{% url 'Logout' %}">SALIR - Desloguearse -</a>
+
+
+    <h3>LISTADO DE MEDICOS:</h3>
+    {% for p in medicos  %}
+
+        <li>{{p}}</li>
+        <button>
+            <a href="{% url 'EliminarMedico' p.id %}"> Eliminar</a>
+            <a href="{% url 'EditarMedico' p.id %}"> Editar</a>
+
+        </button>
+    {% endfor %}
+    
+    <br>
+    <h3> </h3>
+    <button>
+    <a href="{% url 'AgregaMedico' %}"> Agregar nuevo médico</a>
+    </button>
+    
+    <button><a href="{% url 'Inicio' %}"> Volver a inicio</a></button>
+    </body>
+</body>
+</html>
