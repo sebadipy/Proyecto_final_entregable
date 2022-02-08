@@ -6,7 +6,7 @@
 # PROYECTO: 
 ++ El proyecto “Sistema de Practica de Pacientes CODER” pretende cumplir con las instancias finales de la entrega del curso Phyton en CODERHOUSE. El mismo se utilizó como lenguaje de programación backend del sistema, por ser un lenguaje interpretado, no compilado, fuertemente tipado dinámico y multiplataforma. Además, se utilizó como frontend el framework Django de desarrollo web y de código abierto escrito en Python. Por último, como sistema de base de datos se utilizó SQLite.
 
-El proyecto fue diseñado, programado y terminado por ambos integrantes del equipo de manera conjunta.
+El proyecto fue diseñado, programado y terminado de acuerdo a los lineamientos de CODER HOUSE.
 
 # LINK DEL VIDEO EXPLICATIVO: 
 https://bit.ly/Entrega_Final_Python
@@ -98,5 +98,5 @@ Se muestra mensaje de bienvenida en la barra superior del sistema.
 4. Fin de CU.
 
 
-Fecha Creación: 06/02/2022
+Fecha Creación: 08/02/2022
 
