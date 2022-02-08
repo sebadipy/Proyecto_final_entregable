@@ -9,7 +9,7 @@
 El proyecto fue diseñado, programado y terminado por ambos integrantes del equipo de manera conjunta.
 
 # LINK DEL VIDEO EXPLICATIVO: 
-https://bit.ly/EntregaFinalPython
+https://bit.ly/Entrega_Final_Python
 
 
 
