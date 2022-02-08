@@ -1,10 +1,10 @@
 # Sistema de Práctica de Pacientes CODER HOUSE
 
-# INTEGRANTES GRUPO D: 
-++ Romina González ++ Sebastián Di Pierro
+# INTEGRANTE: 
+++ Sebastián Di Pierro
 
-# NUESTRO PROYECTO: 
-++ El proyecto “Sistema de Practica de Pacientes CODER” pretende cumplir con las instancias finales de la entrega del curso Phyton en CODERHOUSE. El mismo se utilizó como lenguaje de programación del backend del sistema, por ser un lenguaje interpretado, no compilado, de tipado dinámico, fuertemente tipado y multiplataforma. Además se utilizó como frontend el framework Django de desarrollo web y de código abierto escrito en Python. Por último, como sistema de base de datos se utilizó SQLite.
+# PROYECTO: 
+++ El proyecto “Sistema de Practica de Pacientes CODER” pretende cumplir con las instancias finales de la entrega del curso Phyton en CODERHOUSE. El mismo se utilizó como lenguaje de programación backend del sistema, por ser un lenguaje interpretado, no compilado, fuertemente tipado dinámico y multiplataforma. Además, se utilizó como frontend el framework Django de desarrollo web y de código abierto escrito en Python. Por último, como sistema de base de datos se utilizó SQLite.
 
 El proyecto fue diseñado, programado y terminado por ambos integrantes del equipo de manera conjunta.
 
